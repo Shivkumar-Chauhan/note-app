@@ -86,7 +86,9 @@ h1{
     margin-top: 50px;
 }
 .listofitems h1{
-    color: #ffffff;
+    /* color: #ffffff; */
+    background: #ffffff5b;
+    height: max-content;
 }
 
 

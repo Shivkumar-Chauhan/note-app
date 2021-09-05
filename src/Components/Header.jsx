@@ -1,13 +1,17 @@
 import React from 'react'
 import '../css/Header.css'
 import { NavLink } from 'react-router-dom'
-function Header() {
+function Header(object) {
     return (
         <>
             <header>
-                <h1><NavLink to='/'>Note App</NavLink></h1>
+                <h1 onClick={()=>{
+                    object.changepage(0)
+                }}>Note App</h1>
                 <nav>
-                    <NavLink to='/recentlydone'>Recents</NavLink>
+                    <div onClick={()=>{
+                    object.changepage(1)
+                    }}>Recents</div>
                 </nav>
             </header>
         </>

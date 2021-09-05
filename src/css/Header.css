@@ -1,24 +1,26 @@
-header{
-    padding: 20px;
-    font-size: 20px;
-    border-bottom: 1px solid royalblue;
-    background: #ffe51d5b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  padding: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid royalblue;
+  background: #ffe51d5b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* min-width: 300px; */
+  margin-left: 100px;
+}
+
+header h1, nav div{
+  cursor: pointer;
+}
+@media (max-width:768px) {
+  header {
+    font-size: 15px;
+    padding: 10px;
   }
-  
-  nav{
-    display: flex;
-    justify-content: space-between;
-    /* min-width: 300px; */
-    margin-left:100px;
-  }
-  
-  
-  @media (max-width:768px) {
-    header{
-      font-size: 15px;
-      padding: 10px;
-    }
-  }
+}
