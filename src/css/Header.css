@@ -24,3 +24,23 @@ header h1, nav div{
     padding: 10px;
   }
 }
+
+.author {
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  background-color: aqua;
+  padding: 5px;
+  font-size: 18px;
+}
+@media (max-width:768px) {
+
+  .author {
+      position: fixed;
+      bottom: 0;
+      right: 0px;
+      background-color: aqua;
+      padding: 5px;
+      font-size: 12px;
+  }
+}
